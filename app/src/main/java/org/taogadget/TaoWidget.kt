@@ -36,7 +36,7 @@ import androidx.glance.text.FontStyle
 import androidx.glance.text.Text
 import androidx.glance.text.TextAlign
 import androidx.glance.text.TextStyle
-import androidx.glance.unit.ColorProvider
+import androidx.glance.color.ColorProvider
 import java.time.LocalDate
 import kotlin.math.sqrt
 
