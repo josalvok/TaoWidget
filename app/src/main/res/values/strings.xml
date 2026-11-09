@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tao Gadget</string>
+    <string name="widget_name">Tao Te Ching</string>
+    <string name="widget_description">Una frase del Tao Te Ching. Toca para cambiarla.</string>
+</resources>
