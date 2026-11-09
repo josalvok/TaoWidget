@@ -18,8 +18,8 @@ import androidx.glance.appwidget.SizeMode
 import androidx.glance.appwidget.action.ActionCallback
 import androidx.glance.appwidget.action.actionRunCallback
 import androidx.glance.appwidget.provideContent
-import androidx.glance.appwidget.state.updateAppWidgetState
-import androidx.glance.appwidget.update
+import androidx.glance.appwidget.state.updateAppWidgetState 
+import androidx.compose.ui.graphics.Color
 import androidx.glance.background
 import androidx.glance.currentState
 import androidx.glance.layout.Alignment
@@ -36,7 +36,7 @@ import androidx.glance.text.FontStyle
 import androidx.glance.text.Text
 import androidx.glance.text.TextAlign
 import androidx.glance.text.TextStyle
-import androidx.glance.color.ColorProvider
+import androidx.glance.ImageProvider
 import java.time.LocalDate
 import kotlin.math.sqrt
 
@@ -44,8 +44,8 @@ private val KEY_INDEX = intPreferencesKey("quote_index")
 private val KEY_DAY = intPreferencesKey("quote_day")
 
 // Colores suaves: tinta verde-gris de día, niebla clara de noche
-private val InkText = ColorProvider(day = Color(0xFF2F3B38), night = Color(0xFFE8EFEA))
-private val SoftText = ColorProvider(day = Color(0xFF6B7C77), night = Color(0xFFA9BAB4))
+  private val InkText = ColorProvider(R.color.tao_ink)
+  private val SoftText = ColorProvider(R.color.tao_soft)
 
 class TaoWidget : GlanceAppWidget() {
 
